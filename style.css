@@ -1,4 +1,5 @@
 
+}
 .topnav {
   height:auto;
   background-color: #76192e;
@@ -34,7 +35,7 @@ color:white;
 padding-top:10%;}
 p {text-align: center;
 color:white;
-margin: 0% 0% 0%;
+margin: 0% 25% 0%;
 }
 div {text-align: center;
 color:white;}
@@ -52,8 +53,7 @@ font-family: 'Source Sans Pro', sans-serif;
   margin-top: 100px;
   text-color: white;
   font-size:  20px;
-
-  height: 1500px; /* Used in this example to enable scrolling */
+ /* Used in this example to enable scrolling */
 
 }
 .about{
@@ -78,7 +78,7 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 .footer {
-  
+
   left: 0;
   bottom: 0;
   width: 100%;
