@@ -146,6 +146,7 @@ input[type=submit]:hover {
 
 /* Slides */
 .mySlides {
+  size:20px;
   display: none;
   padding: 80px;
   text-align: center;
@@ -190,7 +191,7 @@ input[type=submit]:hover {
     padding: 20px;
     background: #ddd;
     margin: 0% 25% 0%;
-    margin-bottom:2%
+    margin-bottom:5%
 }
 
 /* The dots/bullets/indicators */
@@ -211,7 +212,8 @@ input[type=submit]:hover {
 }
 
 /* Add an italic font style to all quotes */
-q {font-style: italic;}
+q {font-style: italic;
+  font-size: 20px}
 
 /* Add a blue color to the author */
 .author {color: white;}
