@@ -14,6 +14,7 @@
 .topnav {
   overflow: hidden;
   background-color: #76192e;
+  text-align: center;
 }
 
 .topnav a {
@@ -51,7 +52,10 @@
     margin-bottom: 15%;
   }
   .topnav a.icon {
-    float: right;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
     display: block;
   }
 }
@@ -60,7 +64,7 @@
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
   }
   .topnav.responsive a {
@@ -76,7 +80,7 @@
 
 <body>
   <div class="topnav" id="myTopnav">
-    <a href="#about" class="logo"><img src="https://github.com/samthegul/guardsmanElectrical/blob/main/newLogo.png?raw=true" width="200" style="max-width:100%;height:auto"></a>
+    <a href="#about" class="logo"><img src="https://github.com/samthegul/guardsmanElectrical/blob/main/newLogo.png?raw=true" width="200" style="float: middle;max-width:100%;height:auto" class="image"></a>
     <a href="#about">About Us</a>
     <a href="#services">Services</a>
     <a href="#contact">Contact Us</a>
